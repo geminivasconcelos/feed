@@ -29,20 +29,25 @@ export default function Post() {
         </p>
 
         <p>
-          👉 {' '}<a href="#"> jane.design/doctorcare</a>
+          👉 <a href="#"> jane.design/doctorcare</a>
         </p>
 
         <p>
-          <a href="#">#novoprojeto </a>{' '}
-          <a>#nlw </a>{''}
+          <a href="#">#novoprojeto </a> <a>#nlw </a>
+          {""}
           <a>#rocketseat</a>
         </p>
       </div>
 
-      
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
 
+        <textarea placeholder="Deixe um comentaário" />
 
-      
+        <footer>
+          <button type="submit">Publicar</button>
+        </footer>
+      </form>
     </article>
   );
 }
