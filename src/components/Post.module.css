@@ -49,11 +49,6 @@
   outline: 2px solid var(--green-500);
 }
 
-/* .authorInfo{
-    display: flex;
-    flex-direction: column;
-} */
-
 .authorInfo strong {
   display: block;
   color: var(--gray-100);
