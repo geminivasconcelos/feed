@@ -13,7 +13,7 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: "https://github.com/geminivasconcelos",
+      avatarUrl: "https://github.com/geminivasconcelos.png",
       nome: "Geminivasconcelos",
       role: "Analista de Desenvolvimento de Sistemas Plenor",
     },
@@ -37,8 +37,8 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: "https://github.com/geminivasconcelos",
-      nome: "Geminivasconcelos",
+      avatarUrl: "https://github.com/diego3g.png",
+      nome: "Diego Fernandes",
       role: "Analista de Desenvolvimento de Sistemas Plenor",
     },
     content: [
